@@ -10,4 +10,4 @@ def my_collect(collection)
   result
 end
 
-my_collect(){ |i| return i}
+my_collect(){ |i| "#{i}" }
