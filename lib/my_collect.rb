@@ -1,5 +1,3 @@
-#collection = []
-
 def my_collect(array)
   i = 0
   collection = []
@@ -9,5 +7,3 @@ def my_collect(array)
   end
   collection
 end
-
-#my_collect(){ |i| "#{i}" }
