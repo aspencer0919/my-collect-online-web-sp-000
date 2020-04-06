@@ -9,6 +9,3 @@ def my_collect(collection)
   end
   result
 end
-
-
-
