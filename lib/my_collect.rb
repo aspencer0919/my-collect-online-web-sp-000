@@ -9,4 +9,4 @@ def my_collect(array)
   end
 end
 
-my_collect(){ |i| "#{i}" }
+#my_collect(){ |i| "#{i}" }
