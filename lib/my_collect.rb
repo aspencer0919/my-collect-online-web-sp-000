@@ -4,8 +4,10 @@ def my_collect(collection)
   i = 0
   result = []
   while i < collection.length
-    result << yield(collection)
+    result << yield(collection[i])
     i += 1
   end
   result
 end
+
+my_collect(){ |i| return i}
